@@ -28,7 +28,7 @@
 					<%=rs.getString(1) %>
 				</td>
 				<td>
-					<button>Send Request</button>
+					<a href="sendFriend/?email=<%=rs.getString(1) %>">Send Request</a>
 				</td>
 			</tr>
 			
