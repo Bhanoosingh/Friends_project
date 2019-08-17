@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="validateUser.jsp">
+	<form action="validateUser.jsp" method="post">
 		<pre>
 			username<input type="text" name="uemail" />
 			password<input type="password" name="upass"/>
